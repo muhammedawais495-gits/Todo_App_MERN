@@ -1,0 +1,5 @@
+todo mongo pass:
+username : todolist
+awaismongodbpass
+
+MONGODB_URI=mongodb+srv://todoapp:mymongodbpass@cluster0.th6gle9.mongodb.net/?appName=Cluster0
