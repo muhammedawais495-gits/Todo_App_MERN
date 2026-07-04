@@ -2,10 +2,10 @@
 import axios from "axios";
 // Instead of every component making requests, they'll all use api.js
 
-
+const baseURL = process.env.BASE_URL
 // Create an axios instance with base URL
 const API = axios.create({
-  baseURL: "http://localhost:3001/api"
+  baseURL: baseURL ? baseURL +  "/api":   "http://localhost:3001/api"
 });
 
 // We'll write two functions:
